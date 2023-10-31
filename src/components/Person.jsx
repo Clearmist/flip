@@ -60,6 +60,7 @@ function Actions({ checked, details, front, chose }) {
 
   const phrase = useMemo(() => {
     return phrases[Math.floor(Math.random() * phrases.length)];
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chose]);
 
   if (checked && details.flipped) {
