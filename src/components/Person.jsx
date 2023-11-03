@@ -7,19 +7,20 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { green } from '@mui/material/colors';
+import { green, grey } from '@mui/material/colors';
 import useSiteStore from '../hooks/useSiteStore';
 import phrases from '../data/phrases.json';
 
 const styles = {
   card: {
-    width: 230,
+    // The width will be constrained by the width of the ReactFlipCard parent.
+    width: '100%',
     height: 300,
     borderCollapse: 'collapse',
     display: 'flex',
     flexDirection: 'column',
   },
-  stamp: {
+  flippedStamp: {
     position: 'absolute',
     transform: 'rotate(0.9turn)',
     borderTop: `6px solid ${green[600]}`,
@@ -29,21 +30,45 @@ const styles = {
     textShadow: '2px 2px 2px #eee, 2px -2px 2px #eee, -2px -2px 2px #eee, -2px 2px 2px #eee',
     opacity: .9,
   },
-  stampFont: {
+  flippedStampFont: {
     fontSize: '46px',
     color: green[800],
+    letterSpacing: 4,
+  },
+  refusedStamp: {
+    position: 'absolute',
+    transform: 'rotate(0.9turn)',
+    borderTop: `6px solid ${grey[600]}`,
+    borderBottom: `6px double ${grey[600]}`,
+    top: '3.4rem',
+    left: '1.2em',
+    textShadow: '2px 2px 2px #eee, 2px -2px 2px #eee, -2px -2px 2px #eee, -2px 2px 2px #eee',
+    opacity: .9,
+  },
+  refusedStampFont: {
+    fontSize: '46px',
+    color: grey[800],
     letterSpacing: 4,
   },
 };
 
 function Stamp({ checked, flipped, when }) {
-  if (!checked || !flipped) {
+  if (!checked || flipped === null) {
     return null;
   }
 
+  if (!flipped) {
+    return (
+      <Box sx={styles.refusedStamp}>
+        <Typography sx={styles.refusedStampFont}>Refused</Typography>
+        <Typography variant="body1" align="right">{when}</Typography>
+      </Box>
+    );
+  }
+
   return (
-    <Box sx={styles.stamp}>
-      <Typography sx={styles.stampFont}>Flipped!</Typography>
+    <Box sx={styles.flippedStamp}>
+      <Typography sx={styles.flippedStampFont}>Flipped!</Typography>
       <Typography variant="body1" align="right">{when}</Typography>
     </Box>
   );
@@ -53,7 +78,7 @@ function Actions({ checked, details, front, chose }) {
   const setDetailId = useSiteStore((state) => state.setDetailId);
 
   const handleDialog = () => {
-    console.log(`The user wants to see details of insurrectionist ${details.id}.`);
+    console.log(`The user wants to see details of person ${details.id}.`);
 
     setDetailId(details.id);
   };
@@ -63,7 +88,7 @@ function Actions({ checked, details, front, chose }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chose]);
 
-  if (checked && details.flipped) {
+  if (checked && details.flipped !== null) {
     return (
       <CardActions>
         <Button size="small" color="primary" onClick={handleDialog}>
@@ -119,7 +144,7 @@ export default function Person({ details, front }) {
           alt={details.name}
         />
         <CardContent sx={{ py: 0, px: 1 }}>
-          <Typography variant="h4">{details.name}</Typography>
+          <Typography variant="h4" noWrap title={details.name}>{details.name}</Typography>
           <Typography variant="overline">{details.function}</Typography>
         </CardContent>
       </CardActionArea>

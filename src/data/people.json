@@ -1,0 +1,441 @@
+[
+  {
+    "id": 1,
+    "case": 1,
+    "sort": "powell",
+    "name": "Sidney Powell",
+    "function": "campaign lawyer",
+    "details": [
+      "Claimed Michael Flynn was framed by the \"Deep State\".",
+      "Has promoted QAnon slogans and personalities.",
+      "The Kraken. Brought lawsuits to challenge Trump's election loss which Michigan federal judge Linda Vivienne Parker called, \"a historic and profound abuse of the judicial process ... by filing baseless and frivolous lawsuits in order to undermine public confidence in the democratic process\".",
+      "Sued by Dominion Voting Systems for defamation.",
+      "Sued by Smartmatic for defamation.",
+      "Alleged that a secret international cabal involving communists, globalists, George Soros, Hugo Chávez (who died in 2013), the Clinton Foundation, the CIA, and thousands of Democratic and Republican officials used voting machines to transfer millions of votes away from Trump.",
+      "Referred to the State Bar of Texas for disbarment for ethics violations.",
+      "Pleaded guilty to six misdemeanor counts of conspiracy to commit intentional interference with the performance of election duties."
+    ],
+    "flipped": true,
+    "when": "2023-10-19",
+    "source": "https://www.theguardian.com/us-news/2023/oct/19/sidney-powell-guilty-plea-trump-georgia-elections",
+    "image": {
+      "front": "SidneyPowell-front.jpg",
+      "back": "SidneyPowell-back.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "case": 1,
+    "sort": "giuliani",
+    "name": "Rudy Giuliani",
+    "function": "lawyer",
+    "details": [
+      "Held a press conference in front of a landscaping business because he was told to book The Four Seasons."
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "RudyGiuliani-front.jpg",
+      "back": "RudyGiuliani-back.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "case": 1,
+    "sort": "smith",
+    "name": "Ray Smith III",
+    "function": "lawyer",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "RaySmith-front.jpg",
+      "back": "RaySmith-back.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "case": 1,
+    "sort": "latham",
+    "name": "Cathy Latham",
+    "function": "Coffee County GOP chair",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "CathyLatham-front.jpg",
+      "back": "CathyLatham-back.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "case": 1,
+    "sort": "cheeley",
+    "name": "Robert Cheeley",
+    "function": "lawyer",
+    "details": [
+      ""
+    ],
+    "flipped": false,
+    "when": "2023-10-28",
+    "source": "https://www.ajc.com/politics/fulton-prosecutors-float-plea-deals-to-trump-defendants/76Q5JTJHXVHHFPVYEW6YWORZO4/",
+    "image": {
+      "front": "RobertCheeley-front.jpg",
+      "back": "RobertCheeley-back.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "case": 1,
+    "sort": "eastman",
+    "name": "John Eastman",
+    "function": "lawyer",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "JohnEastman-front.jpg",
+      "back": "JohnEastman-back.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "case": 1,
+    "sort": "schafer",
+    "name": "David Schafer",
+    "function": "state GOP chair",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "DavidSchafer-front.jpg",
+      "back": "DavidSchafer-back.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "case": 1,
+    "sort": "chesebro",
+    "name": "Ken Chesebro",
+    "function": "lawyer",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "KennethChesebro-front.jpg",
+      "back": "KennethChesebro-back.jpg"
+    }
+  },
+  {
+    "id": 9,
+    "case": 1,
+    "sort": "roman",
+    "name": "Michael Roman",
+    "function": "campaign staff",
+    "details": [
+      ""
+    ],
+    "flipped": false,
+    "when": "",
+    "source": "https://www.ajc.com/politics/fulton-prosecutors-float-plea-deals-to-trump-defendants/76Q5JTJHXVHHFPVYEW6YWORZO4/",
+    "image": {
+      "front": "MichaelRoman-front.jpg",
+      "back": "MichaelRoman-back.jpg"
+    }
+  },
+  {
+    "id": 10,
+    "case": 1,
+    "sort": "still",
+    "name": "Shawn Still",
+    "function": "state senator",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "ShawnStill-front.jpg",
+      "back": "ShawnStill-back.jpg"
+    }
+  },
+  {
+    "id": 11,
+    "case": 1,
+    "sort": "ellis",
+    "name": "Jenna Ellis",
+    "function": "lawyer",
+    "details": [
+      ""
+    ],
+    "flipped": true,
+    "when": "2023-10-24",
+    "source": "https://apnews.com/article/jenna-ellis-plea-deal-georgia-election-case-c4dbacd3e4bbb5415ebd3d42d8fa3128",
+    "image": {
+      "front": "JennaEllis-front.jpg",
+      "back": "JennaEllis-back.jpg"
+    }
+  },
+  {
+    "id": 12,
+    "case": 1,
+    "sort": "meadows",
+    "name": "Mark Meadows",
+    "function": "white house chief of staff",
+    "details": [
+      ""
+    ],
+    "flipped": true,
+    "when": "2023-10-24",
+    "source": "https://abcnews.go.com/US/chief-staff-mark-meadows-granted-immunity-tells-special/story?id=104231281",
+    "image": {
+      "front": "MarkMeadows-front.jpg",
+      "back": "MarkMeadows-back.jpg"
+    }
+  },
+  {
+    "id": 13,
+    "case": 1,
+    "sort": "clark",
+    "name": "Jeffrey Clark",
+    "function": "U.S. D.o.J. official",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "JeffreyClark-front.jpg",
+      "back": "JeffreyClark-back.jpg"
+    }
+  },
+  {
+    "id": 14,
+    "case": 1,
+    "sort": "hall",
+    "name": "Scott Hall",
+    "function": "bail bondsman",
+    "details": [
+      ""
+    ],
+    "flipped": true,
+    "when": "2023-09-29",
+    "source": "https://www.fox5atlanta.com/news/bail-bondsman-scott-hall-takes-plea-deal-in-georgia-election-interference-case",
+    "image": {
+      "front": "ScottHall-front.jpg",
+      "back": "ScottHall-back.jpg"
+    }
+  },
+  {
+    "id": 15,
+    "case": 1,
+    "sort": "hampton",
+    "name": "Misty Hampton",
+    "function": "county elections supervisor",
+    "details": [
+      ""
+    ],
+    "flipped": false,
+    "when": "2023-09-29",
+    "source": "https://www.nbcnews.com/politics/donald-trump/trump-co-defendant-pleads-guilty-georgia-election-case-rcna118140",
+    "image": {
+      "front": "MistyHampton-front.jpg",
+      "back": "MistyHampton-back.jpg"
+    }
+  },
+  {
+    "id": 16,
+    "case": 1,
+    "sort": "lee",
+    "name": "Stephen Lee",
+    "function": "pastor from Illinois",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "StephenLee-front.jpg",
+      "back": "StephenLee-back.jpg"
+    }
+  },
+  {
+    "id": 17,
+    "case": 1,
+    "sort": "floyd",
+    "name": "Harrison Floyd",
+    "function": "Black Voices for Trump leader",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "HarrisonFloyd-front.jpg",
+      "back": "HarrisonFloyd-back.jpg"
+    }
+  },
+  {
+    "id": 18,
+    "case": 1,
+    "sort": "kutti",
+    "name": "Trevian Kutti",
+    "function": "publicist from Chicago",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "TrevianKutti-front.jpg",
+      "back": "TrevianKutti-back.jpg"
+    }
+  },
+  {
+    "id": 19,
+    "case": 2,
+    "sort": "clark",
+    "name": "Jeffrey Clark",
+    "function": "U.S. D.o.J. official",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "JeffreyClark-front.jpg",
+      "back": "JeffreyClark-back.jpg"
+    }
+  },
+  {
+    "id": 20,
+    "case": 2,
+    "sort": "giuliani",
+    "name": "Rudy Giuliani",
+    "function": "lawyer",
+    "details": [
+      "Held a press conference in front of a landscaping business because he was told to book The Four Seasons."
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "RudyGiuliani-front.jpg",
+      "back": "RudyGiuliani-back.jpg"
+    }
+  },
+  {
+    "id": 21,
+    "case": 2,
+    "sort": "powell",
+    "name": "Sidney Powell",
+    "function": "campaign lawyer",
+    "details": [
+      "Claimed Michael Flynn was framed by the \"Deep State\".",
+      "Has promoted QAnon slogans and personalities.",
+      "The Kraken. Brought lawsuits to challenge Trump's election loss which Michigan federal judge Linda Vivienne Parker called, \"a historic and profound abuse of the judicial process ... by filing baseless and frivolous lawsuits in order to undermine public confidence in the democratic process\".",
+      "Sued by Dominion Voting Systems for defamation.",
+      "Sued by Smartmatic for defamation.",
+      "Alleged that a secret international cabal involving communists, globalists, George Soros, Hugo Chávez (who died in 2013), the Clinton Foundation, the CIA, and thousands of Democratic and Republican officials used voting machines to transfer millions of votes away from Trump.",
+      "Referred to the State Bar of Texas for disbarment for ethics violations.",
+      "Pleaded guilty to six misdemeanor counts of conspiracy to commit intentional interference with the performance of election duties."
+    ],
+    "flipped": true,
+    "when": "2023-10-19",
+    "source": "https://apnews.com/article/sidney-powell-plea-deal-georgia-election-indictment-ec7dc601ad78d756643aa2544028e9f5",
+    "image": {
+      "front": "SidneyPowell-front.jpg",
+      "back": "SidneyPowell-back.jpg"
+    }
+  },
+  {
+    "id": 22,
+    "case": 2,
+    "sort": "eastman",
+    "name": "John Eastman",
+    "function": "lawyer",
+    "details": [
+      ""
+    ],
+    "flipped": null,
+    "when": "",
+    "source": "",
+    "image": {
+      "front": "JohnEastman-front.jpg",
+      "back": "JohnEastman-back.jpg"
+    }
+  },
+  {
+    "id": 23,
+    "case": 2,
+    "sort": "chesebro",
+    "name": "Ken Chesebro",
+    "function": "lawyer",
+    "details": [
+      ""
+    ],
+    "flipped": true,
+    "when": "2023-10-20",
+    "source": "https://apnews.com/article/chesebro-jury-selection-georgia-election-indictment-2e558eefdffd9c1eaa7ec8c31bf76044",
+    "image": {
+      "front": "KennethChesebro-front.jpg",
+      "back": "KennethChesebro-back.jpg"
+    }
+  },
+  {
+    "id": 24,
+    "case": 3,
+    "sort": "Nauta",
+    "name": "Walt Nauta",
+    "function": "butler and body man",
+    "details": [
+      ""
+    ],
+    "flipped": false,
+    "when": "2023-07-06",
+    "source": "https://www.huffpost.com/entry/trump-classified-documents_n_64a6942ae4b0e87d65527bf0",
+    "image": {
+      "front": "WaltNauta-front.jpg",
+      "back": "WaltNauta-back.jpg"
+    }
+  },
+  {
+    "id": 25,
+    "case": 3,
+    "sort": "deoliveira",
+    "name": "Carlos De Oliveira",
+    "function": "Mar-a-Lago property manager",
+    "details": [
+      ""
+    ],
+    "flipped": false,
+    "when": "2023-08-15",
+    "source": "https://edition.cnn.com/2023/08/15/politics/carlos-de-oliveira-plea/index.html",
+    "image": {
+      "front": "CarlosDeOliveira-front.jpg",
+      "back": "CarlosDeOliveira-back.jpg"
+    }
+  }
+]

@@ -7,7 +7,7 @@ import TextField from '@mui/material/TextField';
 import { grey } from '@mui/material/colors';
 import { Typography } from '@mui/material';
 import useSiteStore from '../hooks/useSiteStore';
-import insurrectionists from '../data/insurrectionists.json';
+import people from '../data/people.json';
 
 const styles = {
   container: {
@@ -40,17 +40,21 @@ export default function Actions() {
   const flipChoices = useSiteStore((state) => state.flipChoices);
   const checked = useSiteStore((state) => state.checked);
 
-  let correct = 0;
+  let correct = '?';
 
-  insurrectionists.forEach((insurrectionist) => {
-    if (insurrectionist.flipped && flipChoices.includes(insurrectionist.id)) {
-      correct += 1;
-    }
+  if (checked) {
+    correct = 0;
 
-    if (!insurrectionist.flipped && !flipChoices.includes(insurrectionist.id)) {
-      correct += 1;
-    }
-  });
+    people.forEach((person) => {
+      if (person.flipped && flipChoices.includes(person.id)) {
+        correct += 1;
+      }
+
+      if (!person.flipped && !flipChoices.includes(person.id)) {
+        correct += 1;
+      }
+    });
+  }
 
   return (
     <Paper sx={styles.container} elevation={3}>
@@ -59,7 +63,9 @@ export default function Actions() {
           <Button variant="contained" key="check" onClick={() => runCheck(true)}>Check</Button>
           <Button key="reset" onClick={() => runCheck(false)}>Reset</Button>
         </ButtonGroup>
-        {checked ? <Typography sx={{ fontSize: 25 }}>Score: {correct}/{insurrectionists.length}</Typography> : null}
+        <Typography sx={{ fontSize: 25 }}>Score: {correct}/{people.length}</Typography>
+      </Box>
+      <Box sx={{ ...styles.row, mt: 2 }}>
         <TextField
           value={bookmark}
           label="Bookmark"

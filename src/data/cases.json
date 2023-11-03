@@ -4,5 +4,17 @@
     "name": "Georgia election racketeering",
     "link": "https://en.wikipedia.org/wiki/Georgia_election_racketeering_prosecution",
     "summary": "The State of Georgia v. Donald J. Trump, et al. is a pending criminal case against Donald Trump and 18 co-defendants. The prosecution alleges that Trump led a \"criminal racketeering enterprise\", in which he and all other defendants \"knowingly and willfully joined a conspiracy to unlawfully change the outcome\" of the 2020 U.S. presidential election in Georgia."
+  },
+  {
+    "id": 2,
+    "name": "2020 election fraud coup attempt",
+    "link": "https://en.wikipedia.org/wiki/Federal_prosecution_of_Donald_Trump_(election_obstruction_case)",
+    "summary": "United States of America v. Donald J. Trump is a pending federal criminal case against Donald Trump, the president of the United States from 2017 to 2021, regarding his alleged participation in attempts to overturn the 2020 U.S. presidential election including his involvement in the January 6 Capitol attack. The indictment references six co-conspirators. Although they were not named in the indictment, news agencies reported their likely identities based on public information. The indictment does not charge them."
+  },
+  {
+    "id": 3,
+    "name": "Mishandling classified documents",
+    "link": "https://en.wikipedia.org/wiki/Federal_prosecution_of_Donald_Trump_(election_obstruction_case)",
+    "summary": "United States of America v. Donald J. Trump, Waltine Nauta, and Carlos De Oliveira is a pending federal criminal case against Donald Trump and two co-defendants related to Trump's mishandling of classified documents after his presidency."
   }
 ]

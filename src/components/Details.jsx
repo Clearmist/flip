@@ -6,7 +6,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import useSiteStore from '../hooks/useSiteStore';
-import insurrectionists from '../data/insurrectionists.json';
+import people from '../data/people.json';
 
 export default function Details() {
   const [detailId, setDetailId] = useSiteStore((state) => [state.detailId, state.setDetailId]);
@@ -15,7 +15,7 @@ export default function Details() {
     return null;
   }
 
-  const person = insurrectionists.filter((insurrectionist) => insurrectionist.id === detailId);
+  const person = people.filter((person) => person.id === detailId);
 
   if (person.length === 0) {
     return null;

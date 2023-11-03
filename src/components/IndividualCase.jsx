@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import { brown } from '@mui/material/colors';
 import ReactFlipCard from 'reactjs-flip-card';
 import Person from './Person';
-import insurrectionists from '../data/insurrectionists.json';
+import people from '../data/people.json';
 import useSiteStore from '../hooks/useSiteStore';
 
 const styles = {
@@ -39,6 +39,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'row',
     flexWrap: 'wrap',
+    justifyContent: 'center',
     gap: 2,
   },
   wikiLinkContainer: {
@@ -90,12 +91,11 @@ function sortAlpha(a, b) {
 
 export default function IndividualCase({ details }) {
   const { name, link, summary } = details;
-  const people = insurrectionists.filter((insurrectionist) => insurrectionist.cases.includes(details.id)).sort(sortAlpha);
   const flipChoices = useSiteStore((state) => state.flipChoices);
   const checked = useSiteStore((state) => state.checked);
 
   return (
-    <Box>
+    <Box sx={{ mb: 20 }}>
       <Paper sx={styles.summaryContainer} elevation={0}>
         <Typography variant="h2" sx={styles.name}>{name}</Typography>
         <Badge
@@ -114,13 +114,13 @@ export default function IndividualCase({ details }) {
         </Badge>
       </Paper>
       <Box sx={styles.peopleContainer}>
-        {people.map((person) => {
+        {people.filter((person) => person.case === details.id).sort(sortAlpha).map((person) => {
           return (
             <ReactFlipCard
               key={person.id}
               flipTrigger="disabled"
               flipByProp={checked ? undefined : flipChoices.includes(person.id)}
-              containerStyle={{ width: 'auto', height: 'auto' }}
+              containerStyle={{ width: '260px', height: 'auto' }}
               frontComponent={<Person details={person} key={person.id} front />}
               backComponent={<Person details={person} key={person.id} />}
             />

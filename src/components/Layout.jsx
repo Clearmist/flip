@@ -10,7 +10,7 @@ const styles = {
   container: {
     backgroundColor: brown[50],
     px: 2,
-    pb: 16,
+    pb: 10,
   },
 };
 

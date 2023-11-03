@@ -5,13 +5,15 @@ let flipChoices = [];
 if (window.location.pathname !== '') {
   const path = window.location.pathname.replace('/', '');
 
-  try {
-    const decodedBase64 = atob(path);
-    const decodedJSON = JSON.parse(decodedBase64);
+  if (path !== '') {
+    try {
+      const decodedBase64 = atob(path);
+      const decodedJSON = JSON.parse(decodedBase64);
 
-    flipChoices = decodedJSON;
-  } catch (error) {
-    console.error(error);
+      flipChoices = decodedJSON;
+    } catch (error) {
+      console.error(error);
+    }
   }
 }
 
