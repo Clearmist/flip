@@ -18,7 +18,7 @@ export default function Introduction() {
           Copy your bookmark at the bottom to check back again another time as more people flip!
         </Typography>
         <Typography variant="h5">
-          Make a drinking game of it or submit your bookmarks to a betting pool with your friends to be checked after a verdict is reached.
+          Make a drinking game of it or submit your bookmarks to a betting pool with your friends to be checked after each person has entered a plea.
         </Typography>
       </Box>
       <Divider sx={{ mb: 6 }} />
